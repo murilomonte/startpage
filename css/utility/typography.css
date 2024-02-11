@@ -22,8 +22,11 @@
 }
 
 .font-1-m {
-    font-family: var(--font-1);
-    font-size: 1rem;
+    font: 600 1.2rem/1 var(--font-1)
+}
+
+.font-1-p {
+    font: 400 1rem/1 var(--font-1)
 }
 
 .font-2-g {

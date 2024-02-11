@@ -9,19 +9,65 @@
 </head>
 <body class="b15">
     <main>
-        <section class="section-header">
+        <section class="header-section">
             <h1 class="c2 font-1-gg" id="section-header-title"></h1>
             <form action="https://www.google.com/search">
-                <div class="input-container b14 shadow">
+                <div class="header-input-container b14 shadow">
                     <label for="q" class="b14 c11 font-1-g">~$</label>
                     <input type="search" name="q" class="b14 c9 font-2-g" placeholder="O que deseja?" autocomplete="off">
                 </div>
             </form>
         </section>
-        <section class="section-main">
-
+        <section class="main-section">
+            <section class="main-image-section shadow" id="imagem">
+            </section>
+            <section class="main-utility-section">
+                <div class="utility-section-player">
+                    <iframe class="shadow" id="spotify-iframe" style="border-radius:15px" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="utility-section-links">
+                    <div class="section-links-item b14 shadow">
+                        <h2 class="a1 font-1-m">~/Design</h2>
+                        <div>
+                            <a class="c6 font-1-p" href="">Figma</a>
+                            <a class="c6 font-1-p" href="">Canva</a>
+                            <a class="c6 font-1-p" href="">Pexels</a>
+                            <a class="c6 font-1-p" href="">Coolors</a>
+                            <a class="c6 font-1-p" href="">Dribbble</a>
+                        </div>
+                    </div>
+                    <div class="section-links-item b14 shadow">
+                        <h2 class="a1 font-1-m">~/Study</h2>
+                        <div class="links-item-container">
+                            <a class="c6 font-1-p" href="">SUAP</a>
+                            <a class="c6 font-1-p" href="">Origamid</a>
+                            <a class="c6 font-1-p" href="">Classroom</a>
+                        </div>
+                    </div>
+                    <div class="section-links-item b14 shadow">
+                        <h2 class="a1 font-1-m">~/Media</h2>
+                        <div>
+                            <a class="c6 font-1-p" href="">Spotify</a>
+                            <a class="c6 font-1-p" href="">Youtube</a>
+                            <a class="c6 font-1-p" href="">Prime Video</a>
+                        </div>
+                    </div>
+                    <div class="section-links-item b14 shadow">
+                        <h2 class="a1 font-1-m">~/Social</h2>
+                        <div>
+                            <a class="c6 font-1-p" href="">Reddit</a>
+                            <a class="c6 font-1-p" href="">Twitter</a>
+                            <a class="c6 font-1-p" href="">Whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
+    <footer class="footer">
+        <p class="font-2-p-B c13" id="button" onclick="devMsgCounter()">Made with 🧙‍♀️</p>
+        <p id="popup" class="b1 t3 font-2-p-B"></p>
+    </footer>
     <script src="js/javascript.js"></script>
 </body>
 </html>
