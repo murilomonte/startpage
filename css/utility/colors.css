@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+:root {
+    /* Colors */
+    --c1: #FFFFFF;
+    --c2: #F0F0F0;
+    --c3: #E3E3E3;
+    --c4: #D6D6D6;
+    --c5: #C4C4C4;
+    --c6: #B3B3B3;
+    --c7: #A1A1A1;
+    --c8: #8F8F8F;
+    --c9: #7D7D7D;
+    --c10: #6B6B6B;
+    --c11: #595959;
+    --c12: #474747;
+    --c13: #363636;
+    --c14: #242424;
+    --c15: #121212;
+
+    /* Accent */
+    --a1: #7856FF;
+
+    /* Shadow */
+    --shadow: 0px 2px 10px -8px rgba(0, 0, 0, 0.2);
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    :root {
+        --c1: #121212;
+        --c2: #242424;
+        --c3: #363636;
+        --c4: #474747;
+        --c5: #595959;
+        --c6: #6B6B6B;
+        --c7: #7D7D7D;
+        --c8: #8F8F8F;
+        --c9: #A1A1A1;
+        --c10: #B3B3B3;
+        --c11: #C4C4C4;
+        --c12: #D6D6D6;
+        --c13: #E3E3E3;
+        --c14: #F0F0F0;
+        --c15: #FFFFFF;
+    
+        --a1: #2A82FA;
+    }
+}
+
+.b1 { background-color: var(--c1); }
+.b2 { background-color: var(--c2); }
+.b3 { background-color: var(--c3); }
+.b4 { background-color: var(--c4); }
+.b5 { background-color: var(--c5); }
+.b6 { background-color: var(--c6); }
+.b7 { background-color: var(--c7); }
+.b8 { background-color: var(--c8); }
+.b9 { background-color: var(--c9); }
+.b10 { background-color: var(--c10); }
+.b11 { background-color: var(--c11); }
+.b12 { background-color: var(--c12); }
+.b13 { background-color: var(--c13); }
+.b14 { background-color: var(--c14); }
+.b15 { background-color: var(--c15); }
+
+.c1 { color: var(--c1); }
+.c2 { color: var(--c2); }
+.c3 { color: var(--c3); }
+.c4 { color: var(--c4); }
+.c5 { color: var(--c5); }
+.c6 { color: var(--c6); }
+.c7 { color: var(--c7); }
+.c8 { color: var(--c8); }
+.c9 { color: var(--c9); }
+.c10 { color: var(--c10); }
+.c11 { color: var(--c11); }
+.c12 { color: var(--c12); }
+.c13 { color: var(--c13); }
+.c14 { color: var(--c14); }
+.c15 { color: var(--c15); }
+
+.a1 { color: var(--a1); }
+.a1B { background-color: var(--a1); }
+
+.shadow { box-shadow: var(--shadow); }
+
+.ponto { color: var(--a1); }
